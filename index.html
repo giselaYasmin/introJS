@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //string
+        //document.write("<h1>Programacion Computacional IV</h1>");
+        console.log("Mensaje");
+        //numeros
+        //enteros y decimales
+        console.log("Esto es un numero" + 2.5);
+        //boolean
+        //true or false
+        console.log(true);
+        //array
+        console.log(['anibal','amanda']);
+
+
+        //crear variables
+        //let var const sin colocar el tipo
+        var name="jose";
+        let lastname="Caceres";
+        document.write(name +" " +lastname);
+
+        //estructura de control
+        let pass= '222';
+        let input = '222';
+        let result=input===pass; //igualdad estricta, tipo valor
+
+        if(result===true)
+        {
+            console.log(true);
+        }else{
+            console.log(false);
+        }
+
+        switch(result)
+        {
+            case true:
+                console.log("resultado switch:" + true);
+                break;
+            case false:
+                console.log(false);
+                break;
+            default:
+                console.log("no definido");
+        }
+
+        //repetitiva
+        let names =["carmen","anibal","pablo"];
+
+        for(i=0;i<names.length;i++)
+        {
+            console.log(names[i]);
+        }
+    </script>
+</body>
+</html>
